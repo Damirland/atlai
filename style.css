@@ -111,13 +111,16 @@ body {
 }
 
 .header__subtitle {
-    font-size: 24px;
+    font-size: 12px;
     font-weight: 400;
     line-height: normal;
 }
 
 .gallery {
-    
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows: 2fr ;
+    gap: 25px;
 }
 
 .gallery__card {
